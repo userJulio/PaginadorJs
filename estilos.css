@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.active{
+    background: #446898;
+    border-color: #EFF6FF;
+    color: rgb(227, 220, 220) !important;
+    border-radius: 50%;
+}
+
+ul.ul-pagination{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ul-pagination > li {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #1f2433;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+
+}
+.none{
+    display: none;
+}
